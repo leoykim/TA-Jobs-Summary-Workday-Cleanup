@@ -1,2 +1,6 @@
-# TA-Jobs-Summary-Workday-Cleanup
-clean open req report pulled from Workday
+# Workday Jobs Summary Report
+Code written on Google Collaboratory.
+
+Download open req report from Workday.
+Run code to upload Workday report.
+Exports completed Excel file.
