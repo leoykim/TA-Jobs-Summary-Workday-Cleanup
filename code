@@ -60,11 +60,6 @@ df = df.rename(columns={'Job Requisition':'Job', 'Number of Openings Available':
 df['Reason for Hire'].mask(df['Reason for Hire'] == 'Recruiting > Backfill', 'Backfill', inplace=True)
 df['Reason for Hire'].mask(df['Reason for Hire'] == 'Recruiting > New Hire', 'New Hire', inplace=True)
 
-#np.where not working
-#np.where(condition, result if condition met, result if not met)
-# df['Create Job Requisition Reason'] = np.where(df['Create Job Requisition Reason'] == 'Recruiting > Backfill', 'Backfill', 'error')
-
-
 
 #sort
 df.sort_values(['Recruiter', 'Division', 'Business Unit', 'Department'], inplace=True)
