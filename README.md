@@ -2,7 +2,12 @@
 Language: Python  
 Written on Google Collaboratory.  
   
-Download open req report from Workday.  
-Run code to upload Workday report.  
-Cleans and reformats data.  
-Exports completed Excel file.
+* Designed to automate data clean up process of Workday report:
+  * Conditional filters
+  * Xlookup
+  * Adjust data types
+  * Correct text
+  * Rearrange columns
+* Exports an updated Excel file
+  
+*Tools*: Python (pandas, numpy)  
