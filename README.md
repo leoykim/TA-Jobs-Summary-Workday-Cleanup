@@ -1,7 +1,7 @@
 # [Workday Jobs Summary Report](https://github.com/leoykim/TA-Jobs-Summary-Workday-Cleanup/blob/main/Jobs_Summary_Workday_Cleanup.ipynb)
 Language: Python  
   
-* Sample code to clean up data:
+* Used Python to clean up data from Workday. Functions include:
   * Conditional filters
   * Xlookup
   * Adjust data types
